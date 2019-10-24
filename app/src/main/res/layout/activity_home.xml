@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="100dp"
+    tools:context=".HomeActivity">
+
+
+        <ImageView
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/hotelOne"
+            android:src="@drawable/index">
+
+        </ImageView>
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="Mourian"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hotelTwo"
+        android:src="@drawable/fog">
+
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="NightLight"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hotelThree"
+        android:src="@drawable/mourian">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="Q Restaurant"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/open"
+        android:id="@+id/hotelFour">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="Chinam Special"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="208dp"
+        android:id="@+id/hotelFive"
+        android:layout_height="wrap_content"
+        android:src="@drawable/open">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="Kalki"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hotelSix"
+        android:src="@drawable/night">
+
+    </ImageView>
+
+
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="LaliHappy"
+        android:textSize="30dp">
+
+    </TextView>
+
+</LinearLayout>
+</ScrollView>
